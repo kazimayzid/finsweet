@@ -1,0 +1,828 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li{
+    list-style-type: none;
+    display: inline-block;
+}
+/* ======   NAVBAR CSS START ====== */
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#navbar  ul li a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BBBBCB;
+    padding: 0;
+    margin: 0 16px;
+    transition: all linear .4s;
+}
+#navbar .collapse ul li a:hover{
+    color: #ffffff;
+}
+#navbar .collapse ul li:last-child a{
+    margin-right: 0;
+}
+#navbar .collapse ul li:first-child a{
+    margin-left: 0;
+}
+#navbar .nav-button{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 16px 48px;
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+    transition: all linear .4s;
+}
+#navbar .nav-button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+    border: 1px solid #FCD980;
+}
+
+
+/* ======   NAVBAR CSS END ====== */
+
+
+/* ======   BANNER CSS START ====== */
+
+#banner{
+    padding: 218px 0 128px 0;
+    background: #1C1E53;
+}
+#banner .banner-left h1{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+#banner .banner-left p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+
+}
+#banner .banner-left .banner-button .view-our-work{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background: #FCD980;
+    border: 1px solid #FCD980;
+    border-radius: 41px;
+    transition: all linear .4s;
+}
+#banner .banner-left .banner-button .view-our-work:hover{
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252, 0.2);
+    border-radius: 41px;
+}
+#banner .banner-left .banner-button .view-pricing{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-left: 40px;
+    transition: all linear .4s;
+}
+#banner .banner-left .banner-button .view-pricing:hover{
+    color: #FCD980;
+}
+#banner .banner-left .banner-button .view-pricing img{
+    margin-left: 16px;
+}
+
+/* ======   BANNER CSS END ====== */
+
+/* ======   HOWWORK CSS START ====== */
+
+#howwork{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+#howwork .howwork-left h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+#howwork .howwork-left p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    width: 380px;
+    margin: 16px 0;
+}
+#howwork .howwork-left a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+    width: 380px;
+    transition: all linear .4s;
+}
+#howwork .howwork-left a:hover{
+    color: #FCD980;
+}
+#howwork .howwork-left a img{
+    margin-left: 15px;
+}
+#howwork .howwork-middle h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    margin: 16px 0 8px 0;
+}
+#howwork .howwork-middle p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+
+/* ======   HOWWORK CSS END ====== */
+
+/* ======   PROJECT CSS START ====== */
+#project{
+    padding: 128px 0;
+}
+#project .project-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+#project .project-top h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+}
+#project .project-top a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    transition: all linear .4s;
+}
+#project .project-top a:hover{
+    color: #FCD980;
+}
+#project .project-top a img{
+    margin-left: 16px;
+}
+#project .project-bottom .project-bottom-left{
+    position: relative;
+    padding-left: 0 !important;
+}
+#project .project-bottom .project-bottom-left img{
+    padding-left: 0 !important;
+}
+#project .project-bottom .project-bottom-left .bottom-left-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(28, 30, 83, 0.253), rgba(9, 11, 80, 0.932));
+    transition: all 0.5s ease-in-out;
+}
+#project .project-bottom .project-bottom-left:hover .bottom-left-overlay{
+    width: 45%;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details{
+    position: absolute;
+    top: 312px;
+    left: 48px;
+    width: 313px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#project .project-bottom .project-bottom-left:hover .project-bottom-left-details{
+    opacity: 1;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ffffff;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 16px 0 40px 0;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details a img{
+    margin-left: 20px;
+}
+#project .project-bottom .project-bottom-left .project-bottom-left-details a:hover{
+    color: #FCD980;
+}
+#project .project-bottom .project-padding{
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#project .project-bottom .project-bottom-right{
+    position: relative;
+    padding-left: 0 !important;
+}
+#project .project-bottom .project-bottom-right img{
+    padding-left: 0 !important;
+}
+#project .project-bottom .project-bottom-right .bottom-right-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(28, 30, 83, 0.253), rgba(9, 11, 80, 0.932));
+    transition: all 0.5s ease-in-out;
+}
+#project .project-bottom .project-bottom-right:hover .bottom-right-overlay{
+    width: 100%;
+}
+#project .project-bottom .project-bottom-right .project-bottom-right-details{
+    position: absolute;
+    top: 129px;
+    left: 56px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#project .project-bottom .project-bottom-right:hover .project-bottom-right-details{
+    opacity: 1;
+}
+#project .project-bottom .project-bottom-right .project-bottom-right-details h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 280px;
+    color: #ffffff;
+}
+#project .project-bottom .project-bottom-right .project-bottom-right-details a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+}
+#project .project-bottom .project-bottom-right .project-bottom-right-details a img{
+    margin-left: 20px;
+}
+#project .project-bottom .project-bottom-right .project-bottom-right-details a:hover{
+    color: #FCD980;
+}
+#project .project-bottom .right-bottom{
+    position: relative;
+    overflow: hidden;
+}
+#project .project-bottom .right-bottom .right-bottom-overlay{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(28, 30, 83, 0.253), rgba(9, 11, 80, 0.932));
+    transition: all 0.5s ease-in-out;
+}
+#project .project-bottom .right-bottom:hover .right-bottom-overlay{
+    left: 0;
+}
+#project .project-bottom .right-bottom .right-bottom-overlay h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    width: 280px;
+    color: #ffffff;
+    margin-top: 129px;
+    margin-left: 56px;
+}
+#project .project-bottom .right-bottom .right-bottom-overlay a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 56px;
+    transition:  all linear .4s;
+}
+#project .project-bottom .right-bottom .right-bottom-overlay a:hover{
+    color: #FCD980;
+}
+#project .project-bottom .right-bottom .right-bottom-overlay a img{
+    margin-left: 20px;
+}
+/* ======   PROJECT CSS END ====== */
+
+/* ======   FEATURES CSS START ====== */
+#features{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+#features .features-top p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 12px;
+}
+#features .features-top h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    width: 630px;
+
+}
+#features .features-bottom{
+    margin-top: 47px;
+}
+#features .features-bottom .features-card{
+    padding: 58px 32px 48px 48px;
+    background: #ffffff;
+}
+#features .features-bottom h4{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    color: #282938;
+    margin: 22px 0 12px 0;
+}
+#features .features-bottom p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    width: 324px;
+}
+/* ======   FEATURES CSS END ====== */
+
+/* ======   TESTIMONIAL CSS START ====== */
+
+#testimonial{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+#testimonial .testimonial-left h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    width: 327px;
+
+}
+#testimonial .testimonial-left p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.705);
+    width: 327px;
+
+}
+#testimonial .carousel-inner .carousel-item h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    width: 843px;
+    margin-bottom: 48px;
+}
+#testimonial .carousel-inner .carousel-item img{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+#testimonial .carousel-inner .slide-text{
+    margin-left: 14px;
+}
+#testimonial .carousel-inner .slide-text h6{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    margin-bottom: 0 !important;
+}
+#testimonial .carousel-inner .slide-text p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+#testimonial .slider-row{
+    position: relative;
+}
+#testimonial .circle {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    top: 195px;
+    width: 48px;
+    background: #FFFFFF;
+    height: 48px;
+    border-radius: 100%;
+    left: 690px;
+    color: black;
+}
+#testimonial .circle:hover{
+    background-color: #5239FA;
+    color: white;
+}
+#testimonial .circle2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 48px;
+    background: #ffffff;
+    height: 48px;
+    border-radius: 100%;
+    top: 195px;
+    color: black;
+}
+#testimonial .circle2:hover{
+    background-color: #5239FA;
+    color: white;
+}
+/* ======   TESTIMONIAL CSS END ====== */
+
+
+/* ======   FAQ CSS START ====== */
+
+#faq{
+    padding: 128px 0 28px 0;
+    background: #ECECF1;
+}
+#faq .faq-left h3{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    width: 328px;
+    margin-bottom: 16px;
+}
+#faq .faq-left a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+    transition: all linear .4s;
+}
+#faq .faq-left a:hover{
+    color: #FCD980;
+}
+#faq .faq-right{
+    width: 846px;
+    height: 450px;
+}
+#faq .faq-right .accordion{
+    background: transparent;
+}
+#faq .faq-right .accordion-item{
+    background: transparent;
+    border-right: none;
+    border-left: none;
+}
+#faq .faq-right .accordion-item .accordion-raw{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    background-color: transparent;
+}
+#faq .faq-right .accordion-item .accordion-raw span{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2405F2;
+    margin-right: 59px;
+}
+/* ======   FAQ CSS END ====== */
+
+/* ======   CONTACT CSS START ====== */
+.navbar-toggler {
+	background: #FCD980;
+}
+#contact{
+    background: #ECECF1;
+}
+#contact .contact-left{
+    position: relative;
+    overflow: hidden;
+}
+#contact .contact-left img{
+    width: 100%;
+}
+#contact .contact-left .contact-overlay{
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(28, 30, 83, 0.5);
+    transition: all .5s ease-in-out;
+}
+#contact .contact-left:hover .contact-overlay{
+    left: 0;
+}
+
+#contact .contact-left .contact-overlay h3{
+    margin-top: 96px;
+    margin-left: 96px;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #ffffff;
+    width: 464px;
+    margin-bottom: 24px;
+}
+#contact .contact-left .contact-overlay p{
+    margin-top: 24;
+    margin-left: 96px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 464px;
+}
+#contact .contact-right{
+    background-color: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+#contact .contact-right h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+#contact .contact-right p{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-bottom: 40px;
+    width: 432px;
+}
+#contact .contact-right form{
+    margin-bottom: 39px;
+}
+#contact .contact-right form input{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(244, 246, 252, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.055);
+    padding: 18px 0 18px 32px;
+    background-color: transparent;
+    width: 432px;
+    border-radius: 8px;
+}
+#contact .contact-right .contact-button{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: #1B1C2B;
+    background: #FCD980;
+    padding: 16px 150px;
+    border-radius: 41px;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+}
+#contact .contact-right .contact-button:hover{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgba(244, 246, 252, 0.205);
+}
+#contact .contact-right div{
+    margin-top: 24px;
+}
+#contact .contact-right div .contact-button2{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+}
+#contact .contact-right div .contact-button2:hover{
+    color: #FCD980;
+}
+/* ======   CONTACT CSS END ====== */
+
+/* ======   BLOG CSS START ====== */
+#blog{
+    padding: 128px 0;
+    background-color: #ECECF1;
+}
+#blog h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    margin-bottom: 64px;
+}
+#blog .blog-card h6{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.705);
+    margin: 40px 0 16px 0;
+}
+#blog .blog-card h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+}
+#blog .blog-card p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin: 16px 0 32px 0;
+}
+#blog .blog-card a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    transition: all linear .4s;
+    margin-right: 10px !important;
+}
+#blog .blog-card a:hover{
+    color: #FCD980;
+}
+/* ======   BLOG CSS END ====== */
+
+/* ======   FOOTER CSS START ====== */
+#footer{
+    padding-top: 96px;
+    background-color: #1C1E53;
+}
+#footer .footer-left .footer-text{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 24px 0 86px 0;
+    width: 399px;
+}
+#footer .footer-left .contact-info{
+    background-color: #FCD980;
+    padding: 17px 137px 16px 37px;
+    width: 517px;
+}
+#footer .footer-left .contact-info .contact-info-left{
+    margin-right: 29px;
+}
+#footer .footer-left .contact-info .contact-info-left:last-child{
+    margin-right: 0;
+}
+#footer .footer-left .contact-info .contact-info-left h3{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    margin-bottom: 1px;
+}
+#footer .footer-left .contact-info .contact-info-left .address{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.808);
+
+}
+#footer .footer-right h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+#footer .footer-right p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-bottom: 28px;
+    width: 399px;
+}
+#footer .footer-right .socialmedia-link i{
+    margin:0 13px;
+}
+#footer .footer-right .socialmedia-link i:first-child {
+    margin-left: 0;
+}
+
+#footer-navbar{
+    background-color: #ECECF1;
+    padding: 32px 0;
+}
+#footer-navbar .Copyright{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    margin-bottom: 0;
+}
+#footer-navbar .navbar-nav ul{
+    display: flex;
+    margin-bottom: 0;
+}
+#footer-navbar .navbar-nav ul li{
+    margin: 0 16px;
+}
+#footer-navbar .navbar-nav a{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+/* ======   FOOTER CSS END ====== */

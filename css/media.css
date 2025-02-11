@@ -1,0 +1,108 @@
+@media (max-width: 576px) {
+    /* ===  NAVBAR CSS START === */
+    #navbar {
+        position: sticky;
+        background: #1C1E53;
+    }
+    #navbar  ul li a {
+        margin: 0;
+    }
+    #navbar .nav-button {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 5px 20px;
+    }
+
+    /* === banner section start */
+    #banner {
+        padding: 100px 0 100px 0;
+    }
+    #banner .banner-left h1 {
+        font-size: 37px;
+        line-height: 56px;
+        text-align: center;
+    }
+    #banner .banner-left p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+    #banner .banner-left .banner-button {
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    #banner .banner-left .banner-button .view-pricing {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    #banner .banner-left .banner-button .view-our-work {
+        font-size: 15px;
+        line-height: 16px;
+        padding: 11px 16px;
+        text-align: center;
+    }
+    #banner .banner-right img{
+        width: 100%;
+    }
+    /* =====howwork css start==== */
+    #howwork {
+        padding: 60px 0;
+    }
+    #howwork .howwork-left{
+        margin-bottom: 30px;
+    }
+    #howwork .howwork-left h2 {
+        font-size: 38px;
+        line-height: 38px;
+        text-align: center;
+    }
+    #howwork .howwork-left p {
+        font-size: 15px;
+        line-height: 30px;
+        width: 100%;
+        margin: 11px 0;
+        text-align: center;
+    }
+    #howwork .howwork-left a{
+        text-align: center;
+    }
+    #howwork .howwork-middle{
+        text-align: center;
+    }
+    /* =====project css start ======== */
+    #project {
+        padding: 60px 0;
+    }
+    #project .project-top {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    #project .project-top h3 {
+        font-size: 30px;
+        line-height: 39px;
+        text-align: center;
+    }
+    #project .project-bottom .project-bottom-left {
+        padding-left: 12px !important;
+    }
+    #project .project-bottom .project-bottom-left img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #project .project-bottom .project-bottom-left .project-bottom-left-details {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+    }
+    #project .project-bottom .project-bottom-right .project-bottom-right-details {
+        top: 0px;
+        left: 0px;
+    }
+    #project .project-bottom .project-bottom-right img {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+}
