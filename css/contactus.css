@@ -61,86 +61,110 @@ h1,h2,h3,h4,h5,h6,p{
 }
 /* ======   NAVBAR CSS END ====== */
 
-/* ======   READMORE CSS START ====== */
-#readmore{
-    padding: 128px 0 96px 0;
+/* ======   CONTACTUS CSS START ====== */
+#contactus{
+    margin: 128px 0;
 }
-#readmore .readmore-top{
+#contactus .contactus-top{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#readmore h1{
+#contactus .contactus-top h1{
     font-family: "Poppins", serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 64px;
     color: #282938;
-    width: 949px;
-    text-align: center;
+    margin-bottom: 16px;
 }
-#readmore h4{
+#contactus .contactus-top p{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.705);
+    width: 562px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+#contactus .contact-box{
+    padding: 55px 76px 69px 77px;
+    background-color: #F4F6FC;
+    border-radius: 12px;
+}
+#contactus .contact-box-top{
+    display: flex;
+    justify-content: space-between;
+}
+#contactus .contact-box .label{
     font-family: "Poppins", serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 28px;
-    color: #282938;
-    margin: 16px 0 32px 0;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    display: block;
+    margin-bottom: 6px;
 }
-#readmore .secondheader{
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    color: #282938;
-    margin: 80px 0 32px 0;
-}
-#readmore p{
+#contactus .contact-box .input::placeholder{
     font-family: "Poppins", serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: rgba(40, 41, 56, 0.699);
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;  
 }
-#readmore span{
+#contactus .contact-box .input{
     font-family: "Poppins", serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #2405F2;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding: 20px 70px 20px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    background-color: transparent;
+    margin-bottom: 24px;
 }
-#readmore .thirdheader{
-    font-family: "Poppins", serif;
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    color: #282938;
-    margin: 40px 0 32px 0;
-}
-#readmore .readmore-bottom ul{
-    list-style-type: disc !important;
-    margin: 24px 0;
-}
-#readmore ul li{
+#contactus .contact-box-bottom input::placeholder{
     font-family: "Poppins", serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: rgba(40, 41, 56, 0.699);
-    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000; 
 }
-#readmore .readmore-bottom img{
-    margin: 32px 0 56px 0;
+#contactus .contact-box-bottom input{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding: 20px 70px 92px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    background-color: transparent;
+    width: 100%;
 }
-#readmore .thirdheader{
+#contactus .contact-box a{
     font-family: "Poppins", serif;
     font-weight: 600;
-    font-size: 38px;
-    line-height: 56px;
-    color: #282938;
-    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #F4F6FC;
+    padding: 16px 64px;
+    background-color: #282938;
+    border-radius: 41px;
+    border: 1px solid transparent;
+    transition: all .4s ease-in-out;
+    margin-top: 32px;
 }
-/* ======   READMORE CSS END ====== */
+#contactus .contact-box a:hover{
+    color: #282938;
+    padding: 16px 64px;
+    background-color: transparent;
+    border: 1px solid #282938;
+}
+/* ======   CONTACTUS CSS END ====== */
+
 
 /* ======   FOOTER CSS START ====== */
 #footer{
